@@ -1,0 +1,29 @@
+# Your own library and machine config - never committed (see README "Your data").
+# data/ holds the SQLite library, the metadata cache, purge backups and your
+# obsidian-overrides.json; .env holds paths, tokens and keys.
+data/
+.env
+*.local
+*.local.psd1
+ops/cloudflared-config.yml
+ops/windows/logs/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Frontend
+node_modules/
+frontend/dist/
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+
+# Claude Code local permissions (can capture keys from past commands)
+.claude/settings.local.json

@@ -1,0 +1,24 @@
+# Optional: publish Arbiter through a Cloudflare tunnel.
+# Copy to ops/cloudflared-config.yml (gitignored) and fill in your own tunnel:
+#   cloudflared tunnel create arbiter
+#   cloudflared tunnel route dns arbiter arbiter.example.com
+#
+# One hostname is enough: the Flask app serves both /api and the built SPA on
+# the same port.
+#
+# Arbiter has no login. Anyone who can reach the hostname can rank, edit and
+# delete, so put it behind Cloudflare Access (or keep it on your LAN).
+#
+# Run: cloudflared tunnel --config ops/cloudflared-config.yml run arbiter
+tunnel: <tunnel-uuid>
+credentials-file: <path-to-your-.cloudflared>/<tunnel-uuid>.json
+
+ingress:
+  - hostname: arbiter.example.com
+    service: http://127.0.0.1:5002
+    originRequest:
+      # The Plex import is a Server-Sent Events stream that can run for minutes
+      # with quiet stretches while GUIDs resolve; the endpoint's keepalive
+      # comments cover the idle stretches.
+      connectTimeout: 30s
+  - service: http_status:404

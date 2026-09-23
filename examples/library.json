@@ -1,0 +1,377 @@
+{
+  "_readme": "The example library a fresh clone serves until you run `python -m arbiter init`. Read-only: rounds you try to record here are refused. Tiers are 1-5 (null = untiered). Rounds list titles best first; titles sharing an inner list are tied.",
+  "items": [
+    {
+      "media_type": "movie",
+      "title": "Casablanca",
+      "year": 1942,
+      "tier": 5,
+      "genres": [
+        "Drama",
+        "Romance"
+      ]
+    },
+    {
+      "media_type": "movie",
+      "title": "Seven Samurai",
+      "year": 1954,
+      "tier": 5,
+      "genres": [
+        "Action",
+        "Drama"
+      ]
+    },
+    {
+      "media_type": "movie",
+      "title": "Vertigo",
+      "year": 1958,
+      "tier": 4,
+      "genres": [
+        "Mystery",
+        "Thriller"
+      ]
+    },
+    {
+      "media_type": "movie",
+      "title": "12 Angry Men",
+      "year": 1957,
+      "tier": 4,
+      "genres": [
+        "Drama"
+      ]
+    },
+    {
+      "media_type": "movie",
+      "title": "Singin' in the Rain",
+      "year": 1952,
+      "tier": 4,
+      "genres": [
+        "Comedy",
+        "Musical"
+      ]
+    },
+    {
+      "media_type": "movie",
+      "title": "Some Like It Hot",
+      "year": 1959,
+      "tier": 3,
+      "genres": [
+        "Comedy"
+      ]
+    },
+    {
+      "media_type": "movie",
+      "title": "Metropolis",
+      "year": 1927,
+      "tier": 3,
+      "genres": [
+        "Science Fiction"
+      ]
+    },
+    {
+      "media_type": "movie",
+      "title": "Sunset Boulevard",
+      "year": 1950,
+      "tier": null,
+      "genres": [
+        "Drama"
+      ]
+    },
+    {
+      "media_type": "tv",
+      "title": "The Wire",
+      "year": 2002,
+      "tier": 5,
+      "genres": [
+        "Crime",
+        "Drama"
+      ]
+    },
+    {
+      "media_type": "tv",
+      "title": "Fawlty Towers",
+      "year": 1975,
+      "tier": 4,
+      "genres": [
+        "Comedy"
+      ]
+    },
+    {
+      "media_type": "tv",
+      "title": "The Twilight Zone",
+      "year": 1959,
+      "tier": 4,
+      "genres": [
+        "Science Fiction"
+      ]
+    },
+    {
+      "media_type": "tv",
+      "title": "Columbo",
+      "year": 1968,
+      "tier": 3,
+      "genres": [
+        "Crime",
+        "Mystery"
+      ]
+    },
+    {
+      "media_type": "tv",
+      "title": "Cheers",
+      "year": 1982,
+      "tier": 3,
+      "genres": [
+        "Comedy"
+      ]
+    },
+    {
+      "media_type": "tv",
+      "title": "The Prisoner",
+      "year": 1967,
+      "tier": null,
+      "genres": [
+        "Science Fiction",
+        "Mystery"
+      ]
+    },
+    {
+      "media_type": "anime",
+      "title": "Legend of the Galactic Heroes",
+      "year": 1988,
+      "tier": 5,
+      "genres": [
+        "Animation",
+        "Science Fiction"
+      ]
+    },
+    {
+      "media_type": "anime",
+      "title": "Samurai Champloo",
+      "year": 2004,
+      "tier": 4,
+      "genres": [
+        "Animation",
+        "Action"
+      ]
+    },
+    {
+      "media_type": "anime",
+      "title": "Haibane Renmei",
+      "year": 2002,
+      "tier": 4,
+      "genres": [
+        "Animation",
+        "Drama"
+      ]
+    },
+    {
+      "media_type": "anime",
+      "title": "Trigun",
+      "year": 1998,
+      "tier": 3,
+      "genres": [
+        "Animation",
+        "Action"
+      ]
+    },
+    {
+      "media_type": "anime",
+      "title": "Great Teacher Onizuka",
+      "year": 1999,
+      "tier": 3,
+      "genres": [
+        "Animation",
+        "Comedy"
+      ]
+    },
+    {
+      "media_type": "anime",
+      "title": "Rurouni Kenshin",
+      "year": 1996,
+      "tier": 2,
+      "genres": [
+        "Animation",
+        "Action"
+      ]
+    },
+    {
+      "media_type": "anime_movie",
+      "title": "Grave of the Fireflies",
+      "year": 1988,
+      "tier": 5,
+      "genres": [
+        "Animation",
+        "Drama"
+      ]
+    },
+    {
+      "media_type": "anime_movie",
+      "title": "My Neighbor Totoro",
+      "year": 1988,
+      "tier": 4,
+      "genres": [
+        "Animation",
+        "Family"
+      ]
+    },
+    {
+      "media_type": "anime_movie",
+      "title": "Castle in the Sky",
+      "year": 1986,
+      "tier": 4,
+      "genres": [
+        "Animation",
+        "Adventure"
+      ]
+    },
+    {
+      "media_type": "anime_movie",
+      "title": "Tokyo Godfathers",
+      "year": 2003,
+      "tier": 3,
+      "genres": [
+        "Animation",
+        "Comedy"
+      ]
+    },
+    {
+      "media_type": "documentary",
+      "title": "Hoop Dreams",
+      "year": 1994,
+      "tier": 5,
+      "genres": [
+        "Documentary"
+      ]
+    },
+    {
+      "media_type": "documentary",
+      "title": "Man with a Movie Camera",
+      "year": 1929,
+      "tier": 4,
+      "genres": [
+        "Documentary"
+      ]
+    },
+    {
+      "media_type": "documentary",
+      "title": "Koyaanisqatsi",
+      "year": 1982,
+      "tier": 4,
+      "genres": [
+        "Documentary"
+      ]
+    },
+    {
+      "media_type": "documentary",
+      "title": "Nanook of the North",
+      "year": 1922,
+      "tier": 2,
+      "genres": [
+        "Documentary"
+      ]
+    }
+  ],
+  "rounds": [
+    {
+      "media_type": "movie",
+      "order": [
+        [
+          "Seven Samurai"
+        ],
+        [
+          "Casablanca",
+          "Vertigo"
+        ],
+        [
+          "12 Angry Men"
+        ],
+        [
+          "Singin' in the Rain"
+        ],
+        [
+          "Metropolis"
+        ]
+      ]
+    },
+    {
+      "media_type": "movie",
+      "order": [
+        [
+          "Casablanca"
+        ],
+        [
+          "Sunset Boulevard"
+        ],
+        [
+          "Some Like It Hot",
+          "Singin' in the Rain"
+        ],
+        [
+          "Vertigo"
+        ],
+        [
+          "12 Angry Men"
+        ]
+      ]
+    },
+    {
+      "media_type": "movie",
+      "order": [
+        [
+          "Sunset Boulevard"
+        ],
+        [
+          "Seven Samurai"
+        ],
+        [
+          "Metropolis"
+        ],
+        [
+          "Some Like It Hot"
+        ]
+      ]
+    },
+    {
+      "media_type": "tv",
+      "order": [
+        [
+          "The Wire"
+        ],
+        [
+          "The Prisoner",
+          "Fawlty Towers"
+        ],
+        [
+          "The Twilight Zone"
+        ],
+        [
+          "Columbo"
+        ],
+        [
+          "Cheers"
+        ]
+      ]
+    },
+    {
+      "media_type": "anime",
+      "order": [
+        [
+          "Legend of the Galactic Heroes"
+        ],
+        [
+          "Haibane Renmei"
+        ],
+        [
+          "Samurai Champloo"
+        ],
+        [
+          "Trigun",
+          "Great Teacher Onizuka"
+        ],
+        [
+          "Rurouni Kenshin"
+        ]
+      ]
+    }
+  ]
+}

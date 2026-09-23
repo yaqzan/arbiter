@@ -1,0 +1,10 @@
+{
+  "_readme": "Hand-resolved answers for notes the Obsidian importer cannot settle from a bare title. Copy to data/obsidian-overrides.json (or wherever ARBITER_OBSIDIAN_OVERRIDES points). Keys are the note's file name. title = the title Plex uses; query = what to search for when that differs from the title; year = asserted release year; guid = skip search and use this plex:// guid; type = re-file into another contest (movie, tv, anime, anime_movie, documentary); manual = build the row from this entry alone (no poster or ids); skip = leave the note out, with the reason.",
+
+  "Solaris": {"year": 1972},
+  "Wings of Desire": {"title": "Wings of Desire", "year": 1987},
+  "The Seventh Seal": {"query": "Det sjunde inseglet", "title": "The Seventh Seal", "year": 1957},
+  "Planet Earth": {"type": "documentary"},
+  "Some Short Film": {"manual": true, "year": 2019, "why": "not in the Plex catalog"},
+  "A Book I Logged": {"skip": "not something I watched"}
+}
